@@ -30,7 +30,29 @@ namespace LogicaDeProgramacao
                 num++;
             }
 
+
+            int nume = 2;
+
+            switch (nume)
+            {
+                case 1:
+
+                    break;
+                case 2:
+                    Console.WriteLine("2");
+                    break;
+                default:
+
+                    break;
+            }
            
+            //laço for serve pra quando sabemos o tanto que queremos repetir
+            for(int i = 0; i < 10; i++) // i+=2
+            {
+                Console.WriteLine(i);
+            }
+
+
         }
     }
 }
