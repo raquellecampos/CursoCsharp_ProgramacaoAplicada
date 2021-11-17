@@ -10,14 +10,14 @@ namespace ClassesMetodosAtributos
     {
         public string nome;
         public float valor;
-        public bool ehImportado;
+        
 
 
-        public float RetornaValorAtualizado()
+        public float RetornaValorAtualizado(float acrescimo, bool ehImportado)
         {
             if (ehImportado)
             {
-                return (valor * 2.17f);
+                return (valor * acrescimo);
             }
             else
             {
@@ -27,12 +27,11 @@ namespace ClassesMetodosAtributos
             
         }
 
-        public void ImprimirNoConsole()
+        public void ImprimirNoConsole(float valorAtualizado)
         {
-            Console.WriteLine(nome);
-            Console.WriteLine(valor);
-            float valorAtualizado = RetornaValorAtualizado();
-            Console.WriteLine("R$ " + valorAtualizado);
+            Console.WriteLine($"Nome do produto: {nome}.");
+            Console.WriteLine($"Valor do produto: {valor.ToString("F2")}.");
+            Console.WriteLine($"Valor atualizado do produto: {valorAtualizado.ToString("F2")}.");
         }
     }
 }
