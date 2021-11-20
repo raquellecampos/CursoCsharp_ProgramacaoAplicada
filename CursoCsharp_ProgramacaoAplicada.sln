@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstrutoresSobrecargasEnca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumeracaoComposicao", "EnumeracaoComposicao\EnumeracaoComposicao.csproj", "{258F9B03-DF60-478F-8E4C-470A5D90E422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDicionario", "ListaDicionario\ListaDicionario.csproj", "{1C54CFF2-6B66-4C16-AF21-3E41145AAEF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDicionario", "ListaDicionario\ListaDicionario.csproj", "{1C54CFF2-6B66-4C16-AF21-3E41145AAEF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaPolimorfismo", "HerancaPolimorfismo\HerancaPolimorfismo.csproj", "{5C75C1DA-524F-4817-8360-3AD6CF5A096C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excecao", "Excecao\Excecao.csproj", "{440AABCB-8279-4FC8-8ABF-84F52D87165F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1C54CFF2-6B66-4C16-AF21-3E41145AAEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C54CFF2-6B66-4C16-AF21-3E41145AAEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C54CFF2-6B66-4C16-AF21-3E41145AAEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C75C1DA-524F-4817-8360-3AD6CF5A096C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C75C1DA-524F-4817-8360-3AD6CF5A096C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C75C1DA-524F-4817-8360-3AD6CF5A096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C75C1DA-524F-4817-8360-3AD6CF5A096C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440AABCB-8279-4FC8-8ABF-84F52D87165F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440AABCB-8279-4FC8-8ABF-84F52D87165F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440AABCB-8279-4FC8-8ABF-84F52D87165F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440AABCB-8279-4FC8-8ABF-84F52D87165F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
